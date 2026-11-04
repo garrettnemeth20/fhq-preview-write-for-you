@@ -1,0 +1,26 @@
+/* Editorial overrides on the shared Spider Sites stylesheet */
+:root{--line:#e4ddd0;--radius:3px}
+.brand img{display:block;height:40px;width:auto}
+.hero{padding:72px 0 56px}
+.hero h1{font-weight:700;letter-spacing:-.02em;max-width:16ch;font-size:clamp(40px,8vw,76px);line-height:1.02}
+.hero .eyebrow{text-transform:none;letter-spacing:0;font-size:16px}
+.hero p.lede{font-size:21px;max-width:46ch}
+.btn{border-radius:999px}
+.hero .ctas .btn-ghost{color:var(--accent)}
+.trust{background:var(--accent)}
+.trust li span{color:#cfe0e6}
+.card{border:0;border-top:2px solid var(--ink);background:transparent;padding:18px 0 4px}
+.cards{gap:28px 36px}
+.card h3{font-size:26px}
+.why{background:#f1ece2;border:0}
+.why ul{list-style:none;padding:0;display:grid;gap:14px;max-width:60ch;font-size:20px}
+.ph{background:#f1ece2;border-color:var(--accent)}
+.edit{margin:36px 0 0;max-width:62ch;background:#fff;border:1px solid var(--line);padding:20px 22px;border-radius:var(--radius)}
+.edit p{margin:0 0 12px;font-family:var(--display);font-size:20px;line-height:1.5;min-height:4.5em}
+.edit p.cap{font-family:var(--body);font-size:14px;color:var(--muted);margin:12px 0 0;min-height:0}
+.edit del{color:#9a3b2e;text-decoration-thickness:2px}
+.edit button{font:inherit;font-weight:700;min-height:44px;padding:0 18px;border-radius:999px;border:2px solid var(--accent);background:transparent;color:var(--accent);cursor:pointer;touch-action:manipulation;transition:transform .16s cubic-bezier(.23,1,.32,1),background .16s,color .16s}
+.edit button:active{transform:scale(.97)}
+.edit button[aria-pressed=true]{background:var(--accent);color:#fff}
+@media(hover:hover) and (pointer:fine){.edit button:hover{background:var(--accent);color:#fff}}
+@media(prefers-reduced-motion:reduce){.edit button{transition:none}}
