@@ -1,6 +1,6 @@
 // Logo in header, email button, and one signature interaction: "show the edit".
 (function () {
-  document.querySelector(".brand").innerHTML = '<img src="assets/logo.png" alt="Write For You LLC" width="119" height="40">';
+  document.querySelector(".brand").innerHTML = '<img src="assets/logo.png" alt="Write For You LLC" width="167" height="56">';
   var ctas = document.querySelector(".hero .ctas");
   ctas.insertAdjacentHTML("beforeend", '<a class="btn btn-ghost" href="mailto:letjmwriteforyou@gmail.com">Email Jessilyn</a>');
   var box = document.createElement("div");
