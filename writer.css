@@ -29,3 +29,4 @@
 .hero .wrap>*{grid-column:1}
 .hero .wrap>.edit{grid-column:2;grid-row:1/span 5;align-self:center;margin:0}
 }
+.cards{grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
